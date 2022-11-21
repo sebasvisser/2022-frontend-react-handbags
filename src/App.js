@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
+import Button
+    from "./components/Button";
 
 function App() {
   return (
       <>
         <h1>Handbags & Purses</h1>
-        <button>to the collection</button>
-        <button>shop all bags</button>
-        <button disabled>pre-orders</button>
+
+          <Button buttonText={"shop all bags"} />
+          <Button buttonText={"to the collection"} />
+          <Button buttonDisabled={true} buttonText={"pre-orders"} />
+
       </>
   );
 }
