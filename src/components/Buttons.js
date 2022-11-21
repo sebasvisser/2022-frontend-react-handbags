@@ -1,4 +1,4 @@
-function Button({buttonDisabled, buttonText}){
+function Buttons({buttonDisabled, buttonText}){
 
     return(
         <button
@@ -10,4 +10,4 @@ function Button({buttonDisabled, buttonText}){
     );
 
 }
-export default Button;
+export default Buttons;
