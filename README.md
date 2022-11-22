@@ -33,7 +33,7 @@ Begin met het maken van wijzigingen in `src/App.js`: elke keer als je een bestan
 
 ![Buttons](src/assets/screenshots/buttonbar.png)
 1. Plaats drie buttons op de pagina, omwikkeld door een `nav`-element. Als je op de buttons klikt, moet de buttontekst in de console verschijnen. De laatste van de drie is disabled.
-2. Maak nu een custom `Button`-component die alle benodigde data kan ontvangen, zodat hij voor alle drie de huidige uitvoeringen te gebruiken is. Vervang de huidige buttons door jouw
+2. Maak nu een custom `Buttons`-component die alle benodigde data kan ontvangen, zodat hij voor alle drie de huidige uitvoeringen te gebruiken is. Vervang de huidige buttons door jouw
    custom component en geef de juiste informatie mee.
 
 ### Producten
